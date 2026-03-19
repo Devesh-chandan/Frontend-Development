@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">MyPortfolio</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container" data-aos="fade-up">
+      <h2>Hello, I'm <span>Your Name</span></h2>
+      <p>A passionate Web Developer creating modern & responsive websites.</p>
+      <a href="#projects" class="btn">Explore Projects</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>I specialize in frontend technologies like HTML, CSS, and JavaScript. My passion lies in building beautiful user interfaces and smooth web experiences.</p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 data-aos="fade-up">Projects</h2>
+      <div class="project-grid">
+        <div class="project" data-aos="fade-right">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <h3>Weather App</h3>
+          <p>A responsive app that fetches real-time weather data using OpenWeatherMap API.</p>
+        </div>
+        <div class="project" data-aos="fade-up">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <h3>Portfolio Template</h3>
+          <p>A sleek, modern portfolio site template with animations and smooth scroll.</p>
+        </div>
+        <div class="project" data-aos="fade-left">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3">
+          <h3>Blog Platform</h3>
+          <p>A mini blog system built with vanilla JS and localStorage to persist data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Want to collaborate? Reach out at <a href="mailto:you@example.com">you@example.com</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="portfolio.js"></script>
+</body>
+</html>

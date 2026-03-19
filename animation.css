@@ -1,0 +1,76 @@
+.box{
+    height:300px;
+    width:300px;
+    background-color: #800080;
+
+    animation-name:anima;
+    animation-duration:3s;
+    animation-timing-function:ease-out;
+    animation-delay:0;
+    animation-iteration-count:3;
+    animation-direction: normal;
+
+    
+    animation-name:color;
+    animation-duration:3s;
+    animation-timing-function:ease-out;
+    animation-delay:0;
+    animation-iteration-count:3;
+    animation-direction: normal;
+
+      animation-name:size;
+    animation-duration:3s;
+    animation-timing-function:ease-out;
+    animation-delay:0;
+    animation-iteration-count:3;
+    animation-direction: normal; 
+
+    /* //short hand */
+
+    /* animation:size 3s easi-in 0s infinite normal; */
+
+   
+}
+ @keyframes anima{
+        from
+        {
+            font-size:20px;
+        }
+        to
+        {
+            font-size:40px;
+        }
+        
+    }
+
+    @keyframes color{
+        from
+        {
+            background-color: red;
+        }
+        to
+        {
+            background-color:blue;
+        }
+    }
+
+     @keyframes size{
+        0%
+        {
+            width:200px;
+            height:200px;
+            background-color: yellow;
+        }
+        50%
+        {
+            width:400px;
+            height:400px;
+            background-color: red;
+        }
+        100%{
+            border-radius:20px;
+            background-color: black;;
+        }
+    }
+
+    

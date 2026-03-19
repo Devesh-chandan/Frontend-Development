@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BambooCrafts - Eco Bamboo Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        header {
+            background-color: #6b8e23;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #4e6e15;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .hero {
+            background: url('https://i.ibb.co/WyxQvSt/bamboo-bg.jpg') no-repeat center center/cover;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .product button {
+            padding: 10px 20px;
+            background: #6b8e23;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>BambooCrafts</h1>
+        <p>Eco-Friendly Bamboo Products</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Go Green with Bamboo</h1>
+    </section>
+
+    <section class="products" id="shop">
+        <div class="product">
+            <img src="https://i.ibb.co/CB1CZcs/bamboo-cup.jpg" alt="Bamboo Cup">
+            <h3>Bamboo Cup</h3>
+            <p>₹150</p>
+            <button onclick="addToCart('Bamboo Cup')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.ibb.co/3d3dvmT/bamboo-brush.jpg" alt="Bamboo Brush">
+            <h3>Bamboo Toothbrush</h3>
+            <p>₹50</p>
+            <button onclick="addToCart('Bamboo Toothbrush')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.ibb.co/kXb2cKX/bamboo-basket.jpg" alt="Bamboo Basket">
+            <h3>Bamboo Basket</h3>
+            <p>₹300</p>
+            <button onclick="addToCart('Bamboo Basket')">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BambooCrafts. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart(product) {
+            alert(product + " added to cart!");
+        }
+    </script>
+</body>
+
+</html>

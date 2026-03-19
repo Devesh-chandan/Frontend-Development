@@ -1,0 +1,21 @@
+let a=10;
+let b=5;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+console.log(a++);
+console.log(++a);
+let age=19;
+console.log(age>18);
+console.log(a==b);
+console.log(a!=b);
+let n=5;
+let str='5';
+console.log(n==str);
+//c== operator only compare value isrespective of type of data type;
+console.log(n===str);
+//=== is used when data type should be compared;
+

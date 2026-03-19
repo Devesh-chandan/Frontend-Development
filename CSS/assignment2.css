@@ -1,0 +1,41 @@
+#maintopic{
+    color:blue;
+
+}
+*{
+    text-align: center;
+}
+h1{
+    font-family:georgia;
+}
+h3{
+    font-family:georgia;
+}
+h5{
+    font-family:georgia;
+}
+h1{
+    font-family:georgia;
+}
+body p{
+    color:white;
+    background-color:cornsilk;
+}
+div button:hover{
+    color:blue;
+    background-color:yellow;
+
+}
+p:nth-of-type(odd){
+    color:green;
+
+}
+h1::first-letter{
+    color:red;
+
+}
+input[type="checkbox"]:checked{
+    color:blue;
+    
+
+}
